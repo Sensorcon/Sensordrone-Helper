@@ -1,9 +1,7 @@
 package com.sensorcon.sdhelper;
 
 import android.os.Handler;
-
-import com.sensorcon.sensordrone.Drone;
-import com.sensorcon.sdhelper.OnOffRunnable;
+import com.sensorcon.sensordrone.android.Drone;
 
 /**
  * This class implements our OnOffRunnable Interface.

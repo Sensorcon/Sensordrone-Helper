@@ -1,9 +1,7 @@
 package com.sensorcon.sdhelper;
 
 import android.os.Handler;
-
-import com.sensorcon.sensordrone.Drone;
-import com.sensorcon.sdhelper.OnOffRunnable;
+import com.sensorcon.sensordrone.android.Drone;
 
 /**
  * This is a class that will blink the LEDs at a defined interval

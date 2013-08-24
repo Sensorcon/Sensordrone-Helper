@@ -1,28 +1,23 @@
 package com.sensorcon.sdhelper;
 
-import java.util.Set;
-
-import com.sensorcon.sensordrone.Drone;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
+import android.content.*;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnDismissListener;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.graphics.Color;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.AdapterView.OnItemClickListener;
+import com.sensorcon.sensordrone.android.Drone;
+
+import java.util.Set;
 
 /**
  * This is a class of helpful methods to do some things with your Sensordrone.
